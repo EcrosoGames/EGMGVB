@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Arial_8.spritefont</File>
+    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Georgia_16.spritefont</File>
+    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/menuscreen.png</File>
+    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Motorwerk_16.spritefont</File>
+    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Motorwerk_32.spritefont</File>
+    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Symbol_16.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

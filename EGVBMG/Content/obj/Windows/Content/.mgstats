@@ -1,0 +1,7 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Arial_8.spritefont","F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/bin/Windows/Content/Arial_8.xnb","FontDescriptionProcessor","SpriteFontContent",2067,13346,0.2793833
+"F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Georgia_16.spritefont","F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/bin/Windows/Content/Georgia_16.xnb","FontDescriptionProcessor","SpriteFontContent",2070,37922,0.0153035
+"F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/menuscreen.png","F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/bin/Windows/Content/menuscreen.xnb","TextureProcessor","Texture2DContent",145,101,0.2793502
+"F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Motorwerk_16.spritefont","F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/bin/Windows/Content/Motorwerk_16.xnb","FontDescriptionProcessor","SpriteFontContent",2072,21538,0.0133096
+"F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Motorwerk_32.spritefont","F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/bin/Windows/Content/Motorwerk_32.xnb","FontDescriptionProcessor","SpriteFontContent",2072,70690,0.0169772
+"F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Symbol_16.spritefont","F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/bin/Windows/Content/Symbol_16.xnb","FontDescriptionProcessor","SpriteFontContent",2072,21538,0.0128495
