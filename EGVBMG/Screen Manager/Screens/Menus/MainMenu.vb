@@ -55,7 +55,6 @@
         End If
     End Sub
     Public Overrides Sub Draw()
-        Globals.SpriteBatch.Begin()
         Dim MenuY As Integer = MenuPos.Y + 20
         For x = 0 To Entries.Count - 1
             If x = MenuSelect Then
@@ -68,6 +67,5 @@
             MenuY += 30
         Next
         Globals.SpriteBatch.DrawString(Fonts.MotorWerk_16, GameVersion.Vers(), New Vector2(0, Globals.GameSize.Y - Fonts.MotorWerk_16.MeasureString(GameVersion.Vers()).Y), New Color(255, 0, 0))
-        Globals.SpriteBatch.End()
     End Sub
 End Class

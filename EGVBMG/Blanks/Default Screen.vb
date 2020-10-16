@@ -9,7 +9,6 @@
 
     End Sub
     Public Overrides Sub Update()
-        'Example of how to control your updates
         AniTime += Globals.GameTime.ElapsedGameTime.TotalMilliseconds
         If AniTime > 255 Then
             AniTime = 0
@@ -17,8 +16,6 @@
         End If
     End Sub
     Public Overrides Sub Draw()
-        Globals.SpriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.Default, RasterizerState.CullNone)
 
-        Globals.SpriteBatch.End()
     End Sub
 End Class

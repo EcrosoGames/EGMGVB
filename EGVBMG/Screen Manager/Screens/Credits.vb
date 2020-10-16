@@ -47,10 +47,6 @@
     End Sub
 
     Public Overrides Sub Draw()
-        Globals.SpriteBatch.Begin()
-        ' Draw Menu Graphics
-
-        ' Draw Menu Options
         Dim MenuY As Integer = MenuPos.Y + 20
         For x = 0 To Entries.Count - 1
             If x = MenuSelect Then
@@ -63,6 +59,5 @@
 
             MenuY += 30
         Next
-        Globals.SpriteBatch.End()
     End Sub
 End Class

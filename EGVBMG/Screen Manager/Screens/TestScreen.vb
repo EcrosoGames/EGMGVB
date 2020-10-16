@@ -19,8 +19,6 @@
         End If
     End Sub
     Public Overrides Sub Draw()
-        Globals.SpriteBatch.Begin()
         Globals.SpriteBatch.DrawString(Fonts.Georgia_16, TestText, TextPos, Color.Red)
-        Globals.SpriteBatch.End()
     End Sub
 End Class

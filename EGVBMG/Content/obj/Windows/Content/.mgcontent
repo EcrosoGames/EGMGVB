@@ -4,12 +4,12 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Arial_8.spritefont</File>
-    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Georgia_16.spritefont</File>
-    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/menuscreen.png</File>
-    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Motorwerk_16.spritefont</File>
-    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Motorwerk_32.spritefont</File>
-    <File>F:/source_codes/2020/Monogame/EGVBMG/EGVBMG/Content/Symbol_16.spritefont</File>
+    <File>F:/source_codes/Github/EGMGVB/EGVBMG/Content/Arial_8.spritefont</File>
+    <File>F:/source_codes/Github/EGMGVB/EGVBMG/Content/Georgia_16.spritefont</File>
+    <File>F:/source_codes/Github/EGMGVB/EGVBMG/Content/menuscreen.png</File>
+    <File>F:/source_codes/Github/EGMGVB/EGVBMG/Content/Motorwerk_16.spritefont</File>
+    <File>F:/source_codes/Github/EGMGVB/EGVBMG/Content/Motorwerk_32.spritefont</File>
+    <File>F:/source_codes/Github/EGMGVB/EGVBMG/Content/Symbol_16.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

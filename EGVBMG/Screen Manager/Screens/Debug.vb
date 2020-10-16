@@ -57,11 +57,9 @@
         Else
             fpsCounter += 1
         End If
-        Globals.SpriteBatch.Begin()
         Globals.SpriteBatch.Draw(Textures.Null, BGRect, Color.Black * 0.6F)
         Globals.SpriteBatch.DrawString(Fonts.Arial_8, fpsText, New Vector2(10, 10), Color.White)
         Globals.SpriteBatch.DrawString(Fonts.Arial_8, Screens, New Vector2(10, 22), Color.White)
         Globals.SpriteBatch.DrawString(Fonts.Arial_8, FocusScreen, New Vector2(10, 34), Color.White)
-        Globals.SpriteBatch.End()
     End Sub
 End Class

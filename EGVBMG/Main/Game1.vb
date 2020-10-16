@@ -53,13 +53,10 @@ Public Class Game1
         Input.Update()
     End Sub
     Protected Overrides Sub Draw(ByVal gameTime As GameTime)
-        Globals.Graphics.GraphicsDevice.SetRenderTarget(Globals.BackBuffer)
         GraphicsDevice.Clear(Color.Black)
+        Globals.SpriteBatch.Begin()
         MyBase.Draw(gameTime)
         ScreenManager.Draw()
-        Globals.Graphics.GraphicsDevice.SetRenderTarget(Nothing)
-        Globals.SpriteBatch.Begin()
-        Globals.SpriteBatch.Draw(Globals.BackBuffer, New Rectangle(0, 0, Globals.Graphics.GraphicsDevice.Viewport.Width, Globals.Graphics.GraphicsDevice.Viewport.Height), Color.White)
         Globals.SpriteBatch.End()
     End Sub
 End Class
