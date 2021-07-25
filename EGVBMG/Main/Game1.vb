@@ -20,7 +20,7 @@ Public Class Game1
     Protected Overrides Sub Initialize()
         Me.IsMouseVisible = True
         Window.AllowUserResizing = True
-        Globals.GameSize = New Vector2(1280, 720)
+        Globals.GameSize = New Vector2(1920, 1080)
         Globals.Graphics.PreferredBackBufferWidth = Globals.GameSize.X
         Globals.Graphics.PreferredBackBufferHeight = Globals.GameSize.Y
         Globals.Graphics.ApplyChanges()
@@ -29,7 +29,7 @@ Public Class Game1
         Globals.Graphics.SynchronizeWithVerticalRetrace = True
         Me.IsFixedTimeStep = True
         Globals.Graphics.ApplyChanges()
-        Globals.Debugging = True
+        Globals.Debugging = False
     End Sub
     Protected Overrides Sub LoadContent()
         Globals.SpriteBatch = New SpriteBatch(GraphicsDevice)
@@ -49,6 +49,7 @@ Public Class Game1
         MyBase.Update(gameTime)
         Globals.WindowFocused = Me.IsActive
         Globals.GameTime = gameTime
+        Globals.GameSize = New Vector2(Globals.Graphics.PreferredBackBufferWidth, Globals.Graphics.PreferredBackBufferHeight)
         ScreenManager.Update()
         Input.Update()
     End Sub
